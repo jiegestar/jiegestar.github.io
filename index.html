@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/favicon.png">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;}
+        body{
+            background-color: rgb(36, 36, 36);
+        }
+        .a01 > a > img{
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            border-radius: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 10px;
+            border-radius: 20px;
+            
+        }
+        .a01{
+            border-radius: 25px;
+            background-color: rgb(25,25,25);
+            margin-top: 100px;
+            margin-left: 415px;
+            margin-right: 415px;
+            padding-left: 10px;
+            padding-right: 10px;
+            display: block;
+        }
+    </style>
+    <title>浏览器首页</title>
+</head>
+<body>
+    <form action="https://cn.bing.com/?mkt=zh-CN" style="padding-top: 50px; margin: 10px auto;display: flex;">
+        <fieldset style="background-color: rgb(100,100,100);border: 0px; margin-top: 7.5px;padding-bottom: 7.5px; border-radius: 50px;text-align: center;margin-left: 40%;margin-right: 40%;">
+            <label for="search" style="color: rgb(250,250,250);font-size: 25px;margin: 20px;">Search</label> 
+            <input type="text" id="search" name="q" style="border-radius: 10px;padding-left:5px;padding-right:5px;"autocomplete="off">
+            <button type="submit" style="border-radius: 100px;background-color:rgb(50,50,50);margin-right: 7.5px;margin-top: 7.5px;"><img src="./images/search.png" alt="" style="height: 17px;width: 20px;margin-top: 1px;border-radius: 50px;"target="_blank"></button>
+        </fieldset>
+    </form>
+    <fieldset class="a01">
+        <a href="https://www.bilibili.com" target="_blank" rel="bilibili"><img src="./images/bilibili.png" alt=""></a>
+        <a href="https://github.com/" target="_blank" rel="github"><img src="./images/github.png" alt=""></a>      
+        <a href="https://dash.cloudflare.com/login/" target="_blank" rel="cloudflare"><img src="./images/cloudflare.png" alt=""></a>
+        <a href="https://store.steampowered.com/" target="_blank" rel="steam"><img src="./images/steam.png" alt=""></a>
+        <a href="https://microsoft.com/" target="_blank" rel="microsoft"><img src="./images/microsoft.png" alt=""></a>
+        <a href="https://google.com/" target="_blank" rel="google"><img src="./images/google.png" alt=""></a>
+        <a href="https://hltv.org/" target="_blank" rel="hltv"><img src="./images/hltv.png" alt=""></a>
+        <a href="https://www.logitechg.com/" target="_blank" rel="logitechg"><img src="./images/logitechg.png" alt=""></a>
+        <a href="https://steamcommunity.com/id/0ceam/" target="_blank" rel="0ceamsteam"><img src="./images/favicon.png" alt="" style="border-radius: 50px;"></a>
+    </fieldset>
+</body>
+</html>
